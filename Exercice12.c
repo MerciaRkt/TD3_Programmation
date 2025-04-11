@@ -6,11 +6,11 @@ Ce programme permet de remplir et de determiner si un carre est magique ou non
 Algorithme carré  magique ou non
 
 Constante 
-    N = 100
+    N = 100 ;
 Variable 
-    n, i, j : entiers
-    T : tableau entier [N]
-    S , somme : entiers
+    n, i, j : entiers ;
+    T : tableau entier [N] ;
+    S , somme : entiers ;
 
     Ecrire ("Entrez la taille du carré : ");
     Lire  ( n );
