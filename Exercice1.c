@@ -4,9 +4,12 @@ de telle sorte que tous les entiers pairs se retrouvent avant les entiers impair
 
 /*Algorithme affichage ordonne des nombres pairs et impairs
 
+Constante 
+    N = 50 ;
+
 variable 
-    n , i , j ,  k ,a : entiers
-    T : tableau entier [50]
+    n , i , j ,  k ,a : entiers ;
+    T : tableau entier [N] ;
 
 Debut 
     i <- 0 ; 
@@ -16,8 +19,8 @@ Debut
             Fin ;
         FinSi
         Ecrire ("Entrez une valeur entre 1 et 50,la taille du tableau T :");
-        Lire (N);
-    Tantque ((N < 1) || (N > 50));
+        Lire (n);
+    Tantque ((n < 1) OU (n > 50));
     
     Ecrire ("Entrez les elements du tableau T :")
     Pour ( i <- 0 ; i < n ; i++)
@@ -76,7 +79,7 @@ int main ()
     printf ("Entrez les elements du tableau : \n") ;
     for ( i = 0 ; i < n ; i++)
     {
-        printf ("tab[%d] =" , i) ;
+        printf ("T[%d] =" , i) ;
         scanf ("%d" ,&T[i]) ;
     }
 
