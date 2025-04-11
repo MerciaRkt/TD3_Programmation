@@ -1,8 +1,11 @@
 /*Algorithme suppression d'un element X du tableau
 
-VAriable
-     n , i  , k , j , a ,X : entiers
-    T : tableau entier [50]
+Constante 
+     N = 50 ;
+
+Variable
+     n , i  , k , j , a ,X : entiers ;
+    T : tableau entier [N] ;
 
 Debut
     i <- 0  ; 
@@ -26,7 +29,7 @@ Debut
     
     
     k <- 0 ;
-    Pour( i = 0 ; i < n ; i++)
+    Pour( i <- 0 ; i < n ; i++)
         Si (T[i] = X) alors
             k++ ;
         FinSi
