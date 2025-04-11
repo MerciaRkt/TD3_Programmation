@@ -4,7 +4,7 @@
 Algorithme nombre d'apparition de 'a' et 'es'
 
 Variable 
-    i , k , l , n : entiers
+    i , k , l , n : entiers ;
     tab : tableau chaine de caractere[100] ;
 
 Debut  
@@ -23,7 +23,7 @@ Debut
     k <- 0 ; 
     l <- 0 ;
 
-    Pour ( i = 0 ; i < n ; i++)
+    Pour ( i <- 0 ; i < n ; i++)
         Si (tab[i] = 'a') alors
             k++ ;
         FinSi
