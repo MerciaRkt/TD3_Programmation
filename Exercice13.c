@@ -3,7 +3,7 @@
 Algorithme Triangle de Pascal 
 
 Variable 
-    N , i , j : entiers
+    N , i , j : entiers ;
     tab  : tableau entier [T][T] ;
 
     
