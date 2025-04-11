@@ -2,9 +2,12 @@
 
 /*Algorithme Triage d'un tableau
 
+Constante
+    N = 50 ;
+
 variable 
-    n , i , j ,  k ,a, X : entiers
-    T : tableau entier [50]
+    n , i , j ,  k ,a, X : entiers ;
+    T : tableau entier [N] ;
 
 Debut 
     i <- 0 ; 
