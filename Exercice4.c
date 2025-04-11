@@ -3,13 +3,13 @@
 /* Algorithme Suppression des elements de T2 dans T1
 
 Constante 
-    maximum = 50 
-    max = 10 
+    maximum = 50 ;
+    max = 10 ;
 
 Variable 
-    n , m , i , j , a , k  : entiers 
-    T1 : tableau entier [maximum]
-    T2 : tableau entier [max]
+    n , m , i , j , a , k  : entiers ;
+    T1 : tableau entier [maximum] ;
+    T2 : tableau entier [max] ;
 
 Debut 
     i <- 0 ;
@@ -41,7 +41,7 @@ Debut
 
     Ecrire ("Les elements du tableau T2 :\n") ;
 
-    Pour ( j = 0 ; j < m ; j++) 
+    Pour ( j <- 0 ; j < m ; j++) 
         Ecrire ("T2 [" , i ,"] ="  ) ;
         Lire ( T2[j] ) ;
     FinPour
@@ -49,7 +49,7 @@ Debut
     k <- 0 ;
     Pour ( j <- 0 ; j < m ; j ++) 
         Pour ( i <- 0 ; i < n ; i++)
-            Si( T1[ i ] == T2[ j ])
+            Si( T1[ i ] = T2[ j ])
                 k ++ ;
                 Ecrireln ("T2[" , j  ,"] =  " ,T2[j] ," existe dans T1 ")  ;
             FinSi
