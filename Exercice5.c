@@ -4,11 +4,11 @@ Etant donne un tableau d'entiers , trouver et afficher l'element le plus proche 
 Algorithme affichage de l'element le plus proche de la moyenne
 
 Constante 
-    N = 50
+    N = 50 ;
 variable 
-    i , j , n , s , a  , b :entiers
-    m ,c ,d ; reels 
-    T : tableau entier [50]
+    i , j , n , s , a  , b :entiers ;
+    m ,c ,d : reels ;
+    T : tableau entier [N] ;
 
 i <- 0;
     faire     
@@ -28,15 +28,15 @@ i <- 0;
 
     s <- 0 ;
     m <- 0 ;
-    Pour ( i = 0 ; i < n ; i ++ )
+    Pour ( i <- 0 ; i < n ; i ++ )
         s <- s + T[i] ;
     FinPour
 
     m <- (float)s / n ;
     Ecrire (" m = \n " , m) ;
 
-    Pour( j = 0 ; j < n ; j++ )
-        Pour ( i = 0 ; i < n - 1 ; i++)
+    Pour( j <- 0 ; j < n ; j++ )
+        Pour ( i <- 0 ; i < n - 1 ; i++)
             Si ( T [i] > T [i + 1]) alors
                 a <- T[i] ;
                 T[i] <- T [i + 1] ;
@@ -46,7 +46,7 @@ i <- 0;
     FinPour
 
 
-    Pour ( i = 0 ; i < n ; i ++)
+    Pour ( i <- 0 ; i < n ; i ++)
         Si ( m < T[i]) alors
             b <- i ;
             c <- T[i] - m ;
