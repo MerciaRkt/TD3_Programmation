@@ -4,7 +4,7 @@
 Algorithme palindrome
 
 Variable
-    i  , n , k : entiers
+    i  , n , k : entiers ;
     tab : tableau chaine de caractere[100] ;
     inverse : tableau chaine de caractere[100] ;
     a : caractere ;
@@ -16,7 +16,7 @@ Debut
     strcpy (inverse , tab ) ;
     n <- strlen (inverse) ;
     k <- 1 ;
-    Pour ( i = 0 ; i < n ; i++)
+    Pour ( i <- 0 ; i < n ; i++)
         Si (i < n - k )
             a <- inverse[i];
             inverse[i] <- inverse[n - k] ;
@@ -28,7 +28,7 @@ Debut
 
     strcmp ( tab , inverse) ;
 
-    Si (strcmp ( tab , inverse) == 0) 
+    Si (strcmp ( tab , inverse) = 0) 
         ecrire ("Cette chaine de caractere est palindrome \n") ;
     Sinon 
         Ecrire(" cette chaine de caractere n'est pas palindrome \n") ;
