@@ -4,7 +4,7 @@
 Algorithme une chaine est carree ou non
 
 Variable
-    n : entier
+    n : entier ;
     W : Tableau chaine de caractere[100] ;
     U : Tableau chaine de caractere[100] ;
 
