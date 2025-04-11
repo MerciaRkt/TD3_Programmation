@@ -13,7 +13,7 @@ Variable
     n <- strlen( tab ) ;
 
     k <- 0 ;
-    Pour ( i = 0 ; i < n -1 ; i ++) 
+    Pour ( i <- 0 ; i < n -1 ; i ++) 
         Si ((( tab[i] >= 'a') ET (tab[i] <= 'z')) OU ((tab[i] >= 'A') ET (tab[i] <= 'Z')))
             Si ((( tab[i+1] >= 'a') ET (tab[i+1] <= 'z')) OU ((tab[i+1] >= 'A') ET (tab[i+1] <= 'Z')))
                 k++ ;
